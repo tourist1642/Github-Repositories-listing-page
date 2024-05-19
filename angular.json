@@ -3,19 +3,9 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-<<<<<<< HEAD
     "fyle-githublist": {
       "projectType": "application",
       "schematics": {},
-=======
-    "fyle-frontend-challenge": {
-      "projectType": "application",
-      "schematics": {
-        "@schematics/angular:component": {
-          "style": "scss"
-        }
-      },
->>>>>>> origin/main
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -23,39 +13,23 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-<<<<<<< HEAD
             "outputPath": "dist/fyle-githublist",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
-=======
-            "outputPath": "dist/fyle-frontend-challenge",
-            "index": "src/index.html",
-            "main": "src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
-            "tsConfig": "tsconfig.app.json",
-            "inlineStyleLanguage": "scss",
->>>>>>> origin/main
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
               "src/styles.css"
-=======
-              "src/styles.scss"
->>>>>>> origin/main
             ],
             "scripts": []
           },
           "configurations": {
             "production": {
-<<<<<<< HEAD
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
@@ -95,77 +69,25 @@
               "browserTarget": "fyle-githublist:build:production"
             }
           }
-=======
-              "budgets": [
-                {
-                  "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
-                },
-                {
-                  "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
-                }
-              ],
-              "outputHashing": "all"
-            },
-            "development": {
-              "buildOptimizer": false,
-              "optimization": false,
-              "vendorChunk": true,
-              "extractLicenses": false,
-              "sourceMap": true,
-              "namedChunks": true
-            }
-          },
-          "defaultConfiguration": "production"
-        },
-        "serve": {
-          "builder": "@angular-devkit/build-angular:dev-server",
-          "configurations": {
-            "production": {
-              "browserTarget": "fyle-frontend-challenge:build:production"
-            },
-            "development": {
-              "browserTarget": "fyle-frontend-challenge:build:development"
-            }
-          },
-          "defaultConfiguration": "development"
->>>>>>> origin/main
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-<<<<<<< HEAD
             "browserTarget": "fyle-githublist:build"
-=======
-            "browserTarget": "fyle-frontend-challenge:build"
->>>>>>> origin/main
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-<<<<<<< HEAD
             "main": "src/test.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-=======
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
-            "tsConfig": "tsconfig.spec.json",
-            "inlineStyleLanguage": "scss",
->>>>>>> origin/main
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
               "src/styles.css"
             ],
             "scripts": []
@@ -195,25 +117,12 @@
               "devServerTarget": "fyle-githublist:serve:production"
             }
           }
-=======
-              "src/styles.scss"
-            ],
-            "scripts": []
-          }
->>>>>>> origin/main
         }
       }
     }
   },
-<<<<<<< HEAD
   "defaultProject": "fyle-githublist",
   "cli": {
     "analytics": "28a6181e-244b-4689-ab6b-9cad73b46def"
   }
 }
-=======
-  "cli": {
-    "analytics": false
-  }
-}
->>>>>>> origin/main
