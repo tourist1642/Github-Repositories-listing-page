@@ -78,4 +78,4 @@ For more help on the Angular CLI, use the `ng help` command or refer to the [Ang
 ### Conclusion
 This Angular SPA allows users to input a GitHub username and retrieve a list of public repositories for that user. The application leverages Angular's powerful features to provide a seamless user experience and interact with the GitHub API.
 
-For further assistance or contributions, feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/your-username/github-repositories-listing-page).
+For further assistance or contributions, feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/tourist1642/github-repositories-listing-page).
